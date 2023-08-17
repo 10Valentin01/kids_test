@@ -23,11 +23,3 @@ __commands_user.function__
 __commands_user.message_from_V__
 
 Все сообщения обо мне
-
-__commands_user.photo__
-
-Все фото
-
-__commands_user.audio__
-
-Все аудио
