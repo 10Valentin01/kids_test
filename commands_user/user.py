@@ -38,6 +38,11 @@ async def send_school_photo(message: Message):
     await message.answer_photo(photo=photo, caption=about_hobby, parse_mode='HTML', reply_markup=keyboards_btn())
 
 
+@dp.message_handler(Text(equals='Git'))
+async def send_school_photo(message: Message):
+    await message.answer('https://github.com/10Valentin01/kids_test')
+
+
 @dp.message_handler(commands='voice')
 async def menu_voice_message(message: Message):
     await message.answer(voice_message, reply_markup=inline_keyboard_btn())

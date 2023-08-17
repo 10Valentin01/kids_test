@@ -3,7 +3,7 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardBut
 
 def keyboards_btn():
     kb = ReplyKeyboardMarkup(row_width=1, resize_keyboard=True)
-    btn_list = ['Фото из школы', 'Мое хобби', 'Мое последнее фото из телефона']
+    btn_list = ['Фото из школы', 'Мое хобби', 'Мое последнее фото из телефона', 'Git']
     for i in btn_list:
         kb.add(KeyboardButton(i))
     return kb
